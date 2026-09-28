@@ -119,6 +119,6 @@ echo "Verifying final directory state..."
 # TODO: confirm that "${PROJECT_DIR}/data" exists; if not, print an error and exit
 if [ ! -d "${PROJECT_DIR}/data" ]; 
     then
-    echo "Error: The 'data' directory does not exist. Exiting."
+    echo "Error! The 'data' directory does not exist."
     exit 1
 fi
